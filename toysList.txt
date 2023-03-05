@@ -1,0 +1,6 @@
+Toy [id=0, name=Робот]
+Toy [id=1, name=Конструктор]
+Toy [id=2, name=Пазл]
+Toy [id=3, name=Кукла]
+Toy [id=4, name=Мячик]
+Toy [id=5, name=Мягкие]
