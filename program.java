@@ -20,12 +20,12 @@ public class Program {
 //Toy [id=4, name=Мячик]
 //Toy [id=5, name=Мягкие]
 
-        Toy toy1 = new Toy(0, "Робот");
-        Toy toy2 = new Toy(1, "Конструктор");
-        Toy toy3 = new Toy(2, "Пазл");
-        Toy toy4 = new Toy(3, "Кукла");
-        Toy toy5 = new Toy(2, "Мячик");
-        Toy toy6 = new Toy(3, "Мячик");
+        Toy toy1 = new Toy(0, "Робот", 20);
+        Toy toy2 = new Toy(1, "Конструктор", 10);
+        Toy toy3 = new Toy(2, "Пазл", 15);
+        Toy toy4 = new Toy(3, "Кукла", 10);
+        Toy toy5 = new Toy(2, "Мячик", 5);
+        Toy toy6 = new Toy(3, "Мягкие", 40);
 
         List<Toy> toys = new ArrayList<Toy>();
         toys.add(toy6);
@@ -35,7 +35,7 @@ public class Program {
         toys.add(toy2);
         toys.add(toy1);
 
-        ToyStore toyStore = new ToyStore(toys);
+        Store toyStore = new Store(toys);
         toyStore.saveToyForLottery();
         toyStore.saveToyForLottery();
         toyStore.saveToyForLottery();

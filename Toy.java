@@ -2,24 +2,24 @@ public class Toy {
 
     int id;
     String name;
-    double weight;
+    double count;
 
-    public Toy(int id, String name, double weight) {
+    public Toy(int id, String name, double count) {
         this.id = id;
         this.name = name;
-        this.weight = weight;
+        this.count = count;
     }
 
-    public void setWeight(float weight) {
-        this.weight = weight;
+    public void setWeight(float count) {
+        this.count = count;
     }
 
-    public double getWeight() {
-        return weight;
+    public double getCount() {
+        return count;
     }
 
     @Override
     public String toString() {
-        return "Toy [id=" + id + ", name=" + name + ", weight=" + weight + "]";
+        return "Toy [id=" + id + ", name=" + name + ", count=" + count + "]";
     }
 }
